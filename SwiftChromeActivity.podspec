@@ -17,10 +17,12 @@ Pod::Spec.new do |s|
 #   * Write the description between the DESC delimiters below.
 #   * Finally, don't worry about the indent, CocoaPods strips it!  
   s.description      = <<-DESC
+                        The easiest way to share url in Chrome.
                        DESC
 
   s.homepage         = "https://github.com/fewspider/SwiftChromeActivity"
-  s.screenshots     = "https://farm1.staticflickr.com/769/20942373976_ff6c4f32eb_z.jpg", "https://farm1.staticflickr.com/726/20346033874_517f21f4dd_z.jpg"
+  s.screenshots      = "https://farm1.staticflickr.com/769/20942373976_ff6c4f32eb_z.jpg",
+                       "https://farm1.staticflickr.com/726/20346033874_517f21f4dd_z.jpg"
   s.license          = 'MIT'
   s.author           = { "fewspider" => "fewspider@gmail.com" }
   s.source           = { :git => "https://github.com/fewspider/SwiftChromeActivity.git", :tag => 'v' + s.version.to_s }
