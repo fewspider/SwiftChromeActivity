@@ -17,7 +17,8 @@ Pod::Spec.new do |s|
 #   * Write the description between the DESC delimiters below.
 #   * Finally, don't worry about the indent, CocoaPods strips it!  
   s.description      = <<-DESC
-                        The easiest way to share url in Chrome.
+                        The easiest way to share url in Chrome.You can copy ChromeActivity.swift to your project.
+                        Make sure URLSchemes in Info.plist is already setted.
                        DESC
 
   s.homepage         = "https://github.com/fewspider/SwiftChromeActivity"
