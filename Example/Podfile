@@ -1,4 +1,4 @@
-source 'https://github.com/CocoaPods/Specs.git'
+platform :ios, '8.0'
 use_frameworks!
 
 target 'SwiftChromeActivity_Example', :exclusive => true do
@@ -7,6 +7,5 @@ end
 
 target 'SwiftChromeActivity_Tests', :exclusive => true do
   pod "SwiftChromeActivity", :path => "../"
-
   pod 'FBSnapshotTestCase'
 end
