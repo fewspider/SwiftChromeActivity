@@ -23,7 +23,7 @@ Pod::Spec.new do |s|
   s.screenshots     = "https://farm1.staticflickr.com/769/20942373976_ff6c4f32eb_z.jpg", "https://farm1.staticflickr.com/726/20346033874_517f21f4dd_z.jpg"
   s.license          = 'MIT'
   s.author           = { "fewspider" => "fewspider@gmail.com" }
-  s.source           = { :git => "https://github.com/fewspider/SwiftChromeActivity.git", :tag => s.version.to_s }
+  s.source           = { :git => "https://github.com/fewspider/SwiftChromeActivity.git", :tag => 'v' + s.version.to_s }
   s.social_media_url = 'https://twitter.com/fewspider'
 
   s.platform     = :ios, '8.0'
