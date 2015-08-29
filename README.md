@@ -6,9 +6,13 @@
 [![Platform](https://img.shields.io/cocoapods/p/SwiftChromeActivity.svg?style=flat)](http://cocoapods.org/pods/SwiftChromeActivity)
 
 ## Usage
+The easiest way to share url in Chrome.You can copy ChromeActivity.swift to your project.
+Make sure URLSchemes in Info.plist is already setted.
 
+## Demo
 ![Demo 1](https://farm1.staticflickr.com/726/20346033874_517f21f4dd_z.jpg)
 ![Demo 2](https://farm1.staticflickr.com/769/20942373976_ff6c4f32eb_z.jpg)
+[Youtube](https://www.youtube.com/watch?v=4AqAS3lOwMU)
 
 ## Requirements
 
@@ -27,4 +31,4 @@ fewspider, fewspider@gmail.com
 
 ## License
 
-SwiftChromeActivity is available under the MIT license. See the LICENSE file for more info.
+SwiftChromeActivity is available under the [MIT](http://opensource.org/licenses/MIT) license. See the LICENSE file for more info.
