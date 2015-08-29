@@ -1,0 +1,21 @@
+PODS:
+  - FBSnapshotTestCase (2.0.3):
+    - FBSnapshotTestCase/SwiftSupport (= 2.0.3)
+  - FBSnapshotTestCase/Core (2.0.3)
+  - FBSnapshotTestCase/SwiftSupport (2.0.3):
+    - FBSnapshotTestCase/Core
+  - SwiftChromeActivity (0.1.0)
+
+DEPENDENCIES:
+  - FBSnapshotTestCase
+  - SwiftChromeActivity (from `../`)
+
+EXTERNAL SOURCES:
+  SwiftChromeActivity:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  FBSnapshotTestCase: d0eeca6bf87958e088b254396ae66873f971cfb1
+  SwiftChromeActivity: 9c1ceb205d63a7ade9f4c7eef8e926eb59a8d415
+
+COCOAPODS: 0.38.2

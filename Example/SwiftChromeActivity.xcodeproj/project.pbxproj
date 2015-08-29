@@ -15,6 +15,7 @@
 		607FACDD1AFB9204008FA782 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 607FACDC1AFB9204008FA782 /* Images.xcassets */; };
 		607FACE01AFB9204008FA782 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 607FACDE1AFB9204008FA782 /* LaunchScreen.xib */; };
 		607FACEC1AFB9204008FA782 /* Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 607FACEB1AFB9204008FA782 /* Tests.swift */; };
+		C5F390AE1B9150120053C8B7 /* ChromeActivity.swift in Sources */ = {isa = PBXBuildFile; fileRef = C5F390AD1B9150120053C8B7 /* ChromeActivity.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -46,6 +47,7 @@
 		A70D285B8CA9CC31E590A408 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
 		A73EA161CAEF7342452A90FA /* Pods-SwiftChromeActivity_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SwiftChromeActivity_Example.debug.xcconfig"; path = "Pods/Target Support Files/Pods-SwiftChromeActivity_Example/Pods-SwiftChromeActivity_Example.debug.xcconfig"; sourceTree = "<group>"; };
 		B61EF28020E81AB3C46A4ED6 /* Pods-SwiftChromeActivity_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SwiftChromeActivity_Example.release.xcconfig"; path = "Pods/Target Support Files/Pods-SwiftChromeActivity_Example/Pods-SwiftChromeActivity_Example.release.xcconfig"; sourceTree = "<group>"; };
+		C5F390AD1B9150120053C8B7 /* ChromeActivity.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ChromeActivity.swift; sourceTree = "<group>"; };
 		D2720D68BF1EE804EF19BAAF /* Pods-SwiftChromeActivity_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SwiftChromeActivity_Tests.release.xcconfig"; path = "Pods/Target Support Files/Pods-SwiftChromeActivity_Tests/Pods-SwiftChromeActivity_Tests.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -83,6 +85,7 @@
 		607FACC71AFB9204008FA782 = {
 			isa = PBXGroup;
 			children = (
+				C5F390AA1B914F9A0053C8B7 /* Source */,
 				607FACF51AFB993E008FA782 /* Podspec Metadata */,
 				607FACD21AFB9204008FA782 /* Example for SwiftChromeActivity */,
 				607FACE81AFB9204008FA782 /* Tests */,
@@ -157,6 +160,14 @@
 				088B294F77BF154E18E35EC3 /* Pods_SwiftChromeActivity_Tests.framework */,
 			);
 			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		C5F390AA1B914F9A0053C8B7 /* Source */ = {
+			isa = PBXGroup;
+			children = (
+				C5F390AD1B9150120053C8B7 /* ChromeActivity.swift */,
+			);
+			name = Source;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -359,6 +370,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				607FACD81AFB9204008FA782 /* ViewController.swift in Sources */,
+				C5F390AE1B9150120053C8B7 /* ChromeActivity.swift in Sources */,
 				607FACD61AFB9204008FA782 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

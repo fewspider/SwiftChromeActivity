@@ -7,7 +7,8 @@
 
 ## Usage
 
-To run the example project, clone the repo, and run `pod install` from the Example directory first.
+![Demo 1](https://farm1.staticflickr.com/726/20346033874_517f21f4dd_z.jpg)
+![Demo 2](https://farm1.staticflickr.com/769/20942373976_ff6c4f32eb_z.jpg)
 
 ## Requirements
 
