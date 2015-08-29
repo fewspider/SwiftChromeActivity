@@ -2,10 +2,6 @@
 # * http://www.objc.io/issue-6/travis-ci.html
 # * https://github.com/supermarin/xcpretty#usage
 
-# language: ruby
-# rvm:
-#   - 2.2.1
-
 language: objective-c
 cache: cocoapods
 podfile: Example/Podfile
@@ -13,7 +9,7 @@ before_install:
 - gem install cocoapods # Since Travis is not always on latest version
 - pod install --project-directory=Example
 install:
-- gem install bundler --no-rdoc --no-ri --no-document --quiet
+# - gem install bundler --no-rdoc --no-ri --no-document --quiet
 - gem install xcpretty --no-rdoc --no-ri --no-document --quiet
 script:
 - set -e && set -o pipefail && xcodebuild test -workspace Example/SwiftChromeActivity.xcworkspace -scheme SwiftChromeActivity-Example -sdk iphonesimulator ONLY_ACTIVE_ARCH=NO | xcpretty -c
