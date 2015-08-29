@@ -16,7 +16,7 @@ Make sure URLSchemes in Info.plist is already setted.
 
 `open SwiftChromeActivity.xcworkspace`
 
-run the Example in your phone and make sure chrome is already installed.
+run the Example in your iPhone and make sure chrome is already installed.
 You can see the demo in your iPhone.
 
 ## Demo
