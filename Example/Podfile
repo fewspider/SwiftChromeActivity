@@ -1,0 +1,12 @@
+source 'https://github.com/CocoaPods/Specs.git'
+use_frameworks!
+
+target 'SwiftChromeActivity_Example', :exclusive => true do
+  pod "SwiftChromeActivity", :path => "../"
+end
+
+target 'SwiftChromeActivity_Tests', :exclusive => true do
+  pod "SwiftChromeActivity", :path => "../"
+
+  pod 'FBSnapshotTestCase'
+end
