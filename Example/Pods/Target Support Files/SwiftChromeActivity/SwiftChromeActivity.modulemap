@@ -1,6 +1,0 @@
-framework module SwiftChromeActivity {
-  umbrella header "SwiftChromeActivity-umbrella.h"
-
-  export *
-  module * { export * }
-}
