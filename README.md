@@ -5,9 +5,16 @@
 [![License](https://img.shields.io/cocoapods/l/SwiftChromeActivity.svg?style=flat)](http://cocoapods.org/pods/SwiftChromeActivity)
 [![Platform](https://img.shields.io/cocoapods/p/SwiftChromeActivity.svg?style=flat)](http://cocoapods.org/pods/SwiftChromeActivity)
 
-## Usage
+## About
 The easiest way to share url in Chrome.You can copy ChromeActivity.swift to your project.
 Make sure URLSchemes in Info.plist is already setted.
+
+## Usage
+`cd Example`
+`pod install`
+`open SwiftChromeActivity.xcworkspace`
+run the Example in your phone and make sure chrome is already installed.
+You can see the demo in your iPhone.
 
 ## Demo
 ![Demo 1](https://farm1.staticflickr.com/726/20346033874_517f21f4dd_z.jpg)
