@@ -9,12 +9,12 @@
 import UIKit
 import Foundation
 
-class ChromeActivity: UIActivity {
+public class ChromeActivity: UIActivity {
     private var url = ""
     private var sourceName = ""
     private var callbackName = ""
 
-    override init() {
+    override public init() {
         super.init()
 
         var bundle = NSBundle.mainBundle()
@@ -31,19 +31,19 @@ class ChromeActivity: UIActivity {
         }
     }
 
-    override func activityType() -> String? {
+    override public func activityType() -> String? {
         return "ChromeActivity"
     }
 
-    override func activityTitle() -> String? {
+    override public func activityTitle() -> String? {
         return "Open in Chrome"
     }
 
-    override func activityImage() -> UIImage? {
+    override public func activityImage() -> UIImage? {
         return UIImage(named: "chrome-activity-icon")
     }
 
-    override func canPerformWithActivityItems(activityItems: [AnyObject]) -> Bool {
+    override public func canPerformWithActivityItems(activityItems: [AnyObject]) -> Bool {
         for item in activityItems {
             var urlStr = item as! String
             return urlIsOK(urlStr)
@@ -51,13 +51,13 @@ class ChromeActivity: UIActivity {
         return false
     }
 
-    override func prepareWithActivityItems(activityItems: [AnyObject]) {
+    override public func prepareWithActivityItems(activityItems: [AnyObject]) {
         for item in activityItems {
             url = (item as? String)!
         }
     }
 
-    override func performActivity() {
+    override public func performActivity() {
         var chromeUrl = parseChromeUrl(url)
 
         if let realUrl = NSURL(string: chromeUrl) {
@@ -65,7 +65,7 @@ class ChromeActivity: UIActivity {
         }
     }
 
-    func parseChromeUrl(url: String) -> String {
+    public func parseChromeUrl(url: String) -> String {
         var chromeUrl = ""
 
         var set = NSCharacterSet.URLQueryAllowedCharacterSet()
@@ -82,7 +82,7 @@ class ChromeActivity: UIActivity {
         return chromeUrl
     }
 
-    func urlIsOK(url: String) -> Bool {
+    public func urlIsOK(url: String) -> Bool {
         var chromeUrl = parseChromeUrl(url)
 
         var urlIsOK = UIApplication.sharedApplication().canOpenURL(NSURL(string: url)!)

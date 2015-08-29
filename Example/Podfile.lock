@@ -16,6 +16,6 @@ EXTERNAL SOURCES:
 
 SPEC CHECKSUMS:
   FBSnapshotTestCase: d0eeca6bf87958e088b254396ae66873f971cfb1
-  SwiftChromeActivity: 9c1ceb205d63a7ade9f4c7eef8e926eb59a8d415
+  SwiftChromeActivity: 2bdeb1650efb5b79f8f4a2de1e82660a808693ce
 
 COCOAPODS: 0.38.2

@@ -26,15 +26,15 @@ Pod::Spec.new do |s|
                        "https://farm1.staticflickr.com/726/20346033874_517f21f4dd_z.jpg"
   s.license          = 'MIT'
   s.author           = { "fewspider" => "fewspider@gmail.com" }
-  s.source           = { :git => "https://github.com/fewspider/SwiftChromeActivity.git", :tag => 'v' + s.version.to_s }
+  s.source           = { :git => "https://github.com/fewspider/SwiftChromeActivity.git", :tag => s.version.to_s }
   s.social_media_url = 'https://twitter.com/fewspider'
 
   s.platform     = :ios, '8.0'
   s.requires_arc = true
 
-  s.source_files = 'Pod/Classes/**/*'
+  s.source_files = 'Pod/*'
   s.resource_bundles = {
-    'SwiftChromeActivity' => ['Pod/Assets/*.png']
+    'SwiftChromeActivity' => ['Images.xcassets']
   }
 
   # s.public_header_files = 'Pod/Classes/**/*.h'

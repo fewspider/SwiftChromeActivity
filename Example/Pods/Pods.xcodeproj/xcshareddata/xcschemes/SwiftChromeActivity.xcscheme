@@ -14,7 +14,7 @@
             buildForAnalyzing = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "5A7A47314184B9FEE1D2BF8D"
+               BlueprintIdentifier = "FC022BEE33D028B021182BB7"
                BuildableName = "SwiftChromeActivity.framework"
                BlueprintName = "SwiftChromeActivity"
                ReferencedContainer = "container:Pods.xcodeproj">

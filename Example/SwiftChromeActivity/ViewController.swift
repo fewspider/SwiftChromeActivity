@@ -7,6 +7,7 @@
 //
 
 import UIKit
+import SwiftChromeActivity
 
 class ViewController: UIViewController {
 
