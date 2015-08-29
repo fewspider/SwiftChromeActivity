@@ -2,9 +2,9 @@
 # * http://www.objc.io/issue-6/travis-ci.html
 # * https://github.com/supermarin/xcpretty#usage
 
-language: ruby
-rvm:
-  - 2.2.1
+# language: ruby
+# rvm:
+#   - 2.2.1
 
 language: objective-c
 cache: cocoapods
