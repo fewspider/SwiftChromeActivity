@@ -16,5 +16,5 @@ install:
 - gem install bundler --no-rdoc --no-ri --no-document --quiet
 - gem install xcpretty --no-rdoc --no-ri --no-document --quiet
 script:
-- set -o pipefail && xcodebuild test -workspace Example/SwiftChromeActivity.xcworkspace -scheme SwiftChromeActivity-Example -sdk iphonesimulator ONLY_ACTIVE_ARCH=NO | xcpretty -c
+- set -e && set -o pipefail && xcodebuild test -workspace Example/SwiftChromeActivity.xcworkspace -scheme SwiftChromeActivity-Example -sdk iphonesimulator ONLY_ACTIVE_ARCH=NO | xcpretty -c
 - pod lib lint --quick
